@@ -1,0 +1,68 @@
+Python 3.7.2 (tags/v3.7.2:9a3ffc0492, Dec 23 2018, 22:20:52) [MSC v.1916 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+======== RESTART: C:/Users/Olivia/Documents/Python/Assignment2_pt1.py ========
+This program computes the number of diagonals in a regular polygon given the number of sides.
+Enter the number of sides in the polygon: -1
+A polygon with -1 sides has 2 diagonals
+>>> 
+======== RESTART: C:/Users/Olivia/Documents/Python/Assignment2_pt1.py ========
+This program computes the number of diagonals in a regular polygon given the number of sides.
+Enter the number of sides in the polygon: 0
+A polygon with 0 sides has 0 diagonals
+>>> 
+======== RESTART: C:/Users/Olivia/Documents/Python/Assignment2_pt1.py ========
+This program computes the number of diagonals in a regular polygon given the number of sides.
+Enter the number of sides in the polygon: 1
+A polygon with 1 sides has -1 diagonals
+>>> 
+======== RESTART: C:/Users/Olivia/Documents/Python/Assignment2_pt1.py ========
+This program computes the number of diagonals in a regular polygon given the number of sides.
+Enter the number of sides in the polygon: 2
+A polygon with 2 sides has -1 diagonals
+>>> 
+======== RESTART: C:/Users/Olivia/Documents/Python/Assignment2_pt1.py ========
+This program computes the number of diagonals in a regular polygon given the number of sides.
+Enter the number of sides in the polygon: 3
+A polygon with 3 sides has 0 diagonals
+>>> 
+======== RESTART: C:/Users/Olivia/Documents/Python/Assignment2_pt1.py ========
+This program computes the number of diagonals in a regular polygon given the number of sides.
+Enter the number of sides in the polygon: 4
+A polygon with 4 sides has 2 diagonals
+>>> 
+======== RESTART: C:/Users/Olivia/Documents/Python/Assignment2_pt1.py ========
+This program computes the number of diagonals in a regular polygon given the number of sides.
+Enter the number of sides in the polygon: 5
+A polygon with 5 sides has 5 diagonals
+>>> 
+======== RESTART: C:/Users/Olivia/Documents/Python/Assignment2_pt1.py ========
+This program computes the number of diagonals in a regular polygon given the number of sides.
+Enter the number of sides in the polygon: 8
+A polygon with 8 sides has 20 diagonals
+>>> 
+======== RESTART: C:/Users/Olivia/Documents/Python/Assignment2_pt1.py ========
+This program computes the number of diagonals in a regular polygon given the number of sides.
+Enter the number of sides in the polygon: 15
+A polygon with 15 sides has 90 diagonals
+>>> 
+======== RESTART: C:/Users/Olivia/Documents/Python/Assignment2_pt1.py ========
+This program computes the number of diagonals in a regular polygon given the number of sides.
+Enter the number of sides in the polygon: 7.9
+Traceback (most recent call last):
+  File "C:/Users/Olivia/Documents/Python/Assignment2_pt1.py", line 56, in <module>
+    main()
+  File "C:/Users/Olivia/Documents/Python/Assignment2_pt1.py", line 48, in main
+    num_sides = int(num_sides_str)
+ValueError: invalid literal for int() with base 10: '7.9'
+>>> 
+======== RESTART: C:/Users/Olivia/Documents/Python/Assignment2_pt1.py ========
+This program computes the number of diagonals in a regular polygon given the number of sides.
+Enter the number of sides in the polygon: dog
+Traceback (most recent call last):
+  File "C:/Users/Olivia/Documents/Python/Assignment2_pt1.py", line 56, in <module>
+    main()
+  File "C:/Users/Olivia/Documents/Python/Assignment2_pt1.py", line 48, in main
+    num_sides = int(num_sides_str)
+ValueError: invalid literal for int() with base 10: 'dog'
+>>> 
